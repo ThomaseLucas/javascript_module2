@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF347;
+}
+
+.web_title {
+    margin: 0;
+    text-align: center;
+    background-color: #5F9C3F;
+    padding: 5%;
+    width: 100%;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 5% auto;
+    border: 10px solid #5F9C3F;
+    text-align: center;
+    padding: 20px;
+    background-color: #5F9C3F;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}

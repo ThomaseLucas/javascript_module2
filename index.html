@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomas' Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <header id="header_box">
+    <h1 class="web_title">Thomas' Recipe Finder</h1>
+  </header>
+  <body>
+    <div class="container">
+      <h1>Recipe Finder</h1>
+      <input
+        type="text"
+        id="ingredients"
+        placeholder="Enter ingredients, use commas as seperators"
+      />
+      <button type="submit" id="button_go">Find Recipes!</button>
+    </div>
+    <div id="recipe-list"></div>
+    <script src="recipe.js"></script>
+  </body>
+</html>
