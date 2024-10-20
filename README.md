@@ -14,7 +14,7 @@ I used javascript, css, and html. I also learned how to create an environment to
 
 # Useful Websites
 
-- [Mdn Web Docs]((https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript))
+- [Mdn Web Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [Stack OverFlow](https://stackoverflow.com/)
 
 # Future Work
