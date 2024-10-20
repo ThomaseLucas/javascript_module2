@@ -34,3 +34,46 @@ body{
     overflow: hidden;
 
 }
+
+#recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.recipe-item {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipe-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.recipe-item{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tooltip {
+    display: none; /* Hidden by default */
+    position: absolute; /* Positioned relative to the recipe item */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    top: -5px; /* Adjust position as necessary */
+    left: 110%; /* Adjust position as necessary */
+}
+
+.recipe-image {
+    cursor: pointer; /* Change cursor to indicate that the image is interactive */
+}
+    
