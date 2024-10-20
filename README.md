@@ -6,7 +6,7 @@ This program accesses the Edemam API which has a bunch of data of recipes. It se
 
 The purpose of this software is to help users find recipes that they can cook with ingredients they have lying around the home. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Recipe Finder Demo](https://youtu.be/wCjd0r2X8O4)
 
 # Development Environment
 
