@@ -94,6 +94,11 @@ function displayRecipes(recipes) {
         recipeImage.addEventListener('mouseleave', () => {
             tooltip.style.display = 'none'; // Hide the tooltip
         });
+    
+        //Event listeners wait for something to happen on the webpage. Whatever logic is inside the event listener will only run when the event happens.
+        recipeItem.addEventListener('click', () => {
+            window.open(recipe.recipe.url, '_blank'); // Open the recipe in a new tab
+        });
 
         recipeList.appendChild(recipeItem);
     });
